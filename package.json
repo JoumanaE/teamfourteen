@@ -1,0 +1,27 @@
+{
+  "name": "teamfourteen",
+  "version": "1.0.0",
+  "description": "Team 14&rsquo;s project at Hack the Gap 2017",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoumanaE/teamfourteen.git"
+  },
+  "homepage": "https://github.com/JoumanaE/teamfourteen#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-ui-router": "^0.3.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.3.3",
+    "express": "^4.14.0",
+    "gulp": "^3.8.7",
+    "gulp-nodemon": "^1.0.4",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "start": "npm run serve-dev -- --watch",
+  }
+}
